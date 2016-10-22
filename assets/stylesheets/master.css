@@ -250,26 +250,6 @@ buttons
 
 /*
 =================
-home
-=================
-*/
-
-.hero{
-	padding: 22px 80px 60px 80px;
-	line-height: 44px;
-	text-align: center;
-	color: #fff;
-}
-.hero h2{
-	font-size: 36px;
-}
-.hero p{
-	font-size: 24px;
-	font-weight: 100;
-}
-
-/*
-=================
 primary header
 =================
 */
@@ -322,4 +302,51 @@ navigation
 
 .nav {
 	text-align: right;
+}
+
+.nav li{
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+}
+
+.nav li:last-child{
+	margin-right: 0;
+}
+
+
+/*
+=================
+home
+=================
+*/
+
+.hero{
+	padding: 22px 80px 60px 80px;
+	line-height: 44px;
+	text-align: center;
+	color: #fff;
+}
+.hero h2{
+	font-size: 36px;
+}
+.hero p{
+	font-size: 24px;
+	font-weight: 100;
+}
+
+/*
+===================
+speakers
+===================
+*/
+.speaker{
+	margin-bottom: 44px;
+}
+.speaker-info{
+	border: 1px solidd #dfe2e5;
+	border-radius: 5px;
+	margin-top: 88px;
+	padding: 22px 0;
+	text-align: center;
 }
